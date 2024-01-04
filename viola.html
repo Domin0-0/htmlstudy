@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title> 오케스트라의 현악기들</title>
+    <!-- css태그 -->
+   <style>
+      h1{
+        border-bottom:1px solid black; display:block; padding:20px; margin:0%;
+        font-size:40px;
+        color:black;
+        }
+    .container{
+        border-right:1px solid black; width:200px;
+        }
+    .main{
+        margin-right:20%;
+    }
+     #gridex{
+        display:grid;
+        grid-template-columns: 200px 1fr;
+     }  
+     @media(max-width:800px){
+        #gridex{display:block;
+            }
+        .container{border:none;}
+        }
+   </style>
+    <!-- css태그 -->
+</head>
+<body>
+    <h1>
+        <a href="index.html" title="오케스트라의 현악기들"
+        >
+        오케스트라의 현악기들
+        </a>
+    </h1>
+<div id="gridex">
+    <div class="container">
+            <h2 > 목록</h2>
+            <ul>
+                <li><a href="violin.html" title="바이내린" class="악기">바이올린</a></li>
+                <li><a href="viola.html" title="비올라" class="악기">비올라</a></li>
+                <li><a href="cello.html" title=" 첼로"class="악기">첼로</a></li>
+                <li><a href="contrabass.html" title="베이스" class="악기">콘트라베이스</a></li>
+            </ul>
+    </div>
+    <div class="main">
+        <h3>비올라</h3>
+        <strong>비올라(영어: viola)</strong>는 서양 음악에서 쓰이는, 활로 연주하는 현악기(찰현악기) 가운데 하나다. 비올라는 유럽 현악기의 한 종류인 '비올'에서 유래했으며, 바이올린이 발명된 시기인 1500년대에 발명된 것으로 추정된다. 바이올린족에 속하는 악기들 중에서 가운데 음역을 담당한다.
+        <p style="color:grey;font-size:10px; text-align:left;">모든 본문의 출처는 한국어 위키백과입니다.</p>
+    </div>
+</div>
+</body>
+</html>
